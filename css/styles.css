@@ -7,11 +7,20 @@
   --second-text-color: #757575;
   --main-title-color: #FFFFFF;
   --accent-color: #2196F3;
+  --background-color: #FFFFFF;
+  --background-order: #2F303A;
+  --background-team: #F5F4FA;
+  --background-footer: #2F303A;
+  --main-logo-color: #000000:
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     color:var(--main-text-color);
+    background-color: var(--background-color);
+
 }
 
  .list {
@@ -37,17 +46,16 @@ list-style: none;
 /* --------HEADER------------ */
 
 .header {
-    background-color: white;
+    background-color:var(--background-color);
 }
 
 .logo {
-    color: #000000;
+    color:var(--main-logo-color);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em
 }
 .logo-blue{
     color:var(--accent-color);
@@ -55,7 +63,6 @@ list-style: none;
 
 .header-link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--main-text-color);
@@ -65,14 +72,12 @@ list-style: none;
 }
 .header-mail {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--main-text-color);
 }
 .header-tel {
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color:var(--second-text-color);
@@ -83,7 +88,7 @@ color:var(--second-text-color);
     /* ----------ORDER---------- */
 
 .order {
-    background-color: #2F303A;
+    background-color: var(--background-order);
 }
 .order-head {
     font-weight: 900;
@@ -94,11 +99,10 @@ color:var(--second-text-color);
     text-transform: uppercase;
     color:var(--main-title-color);
 }
-.head-btn:hover, .head-btn:focus{
+.head-btn {
     border: none;
     background-color:var(--accent-color) ;
     font-family:inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -113,17 +117,12 @@ color:var(--second-text-color);
     /* ------BENEFIT---------- */
 .benefit-head{
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--main-text-color);
 }
 .benefit-text {
-font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 color:var(--second-text-color);
 }
 
@@ -134,19 +133,17 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-letter-spacing: 0.03em;
 color:var(--main-text-color);
 }
 /* --------TEAM--------- */
 .team {
-    background-color:#F5F4FA ;
+    background-color:var(--background-team);
 }
 .team-head {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
     color:var(--main-text-color);
 }
 .team-player {
@@ -154,42 +151,32 @@ color:var(--main-text-color);
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    letter-spacing: 0.03em;
     color:var(--main-text-color);
 }
 .team-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    letter-spacing: 0.03em;
     color:var(--second-text-color);
 }
 /* -------------FOOTER------------- */
 .footer {
-    background-color: #2F303A;
+    background-color:var(--background-footer);
 }
 .footer-link {
 font-style: normal;
-font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 color:var(--main-title-color);
 }
 .footer-mail, .footer-tel {
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .selection-btn {
     border: none;
     cursor: pointer;
     font-family:inherit;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -205,10 +192,8 @@ color:var(--main-title-color);
     color:var(--main-text-color);
 }
 .portfolio-dep {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
     color:var(--second-text-color);
 }
 .current {
